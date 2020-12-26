@@ -1,0 +1,45 @@
+html, body, #root, .app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  background: #eeeded;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex__column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.content__wrapper {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.content {
+  height: 100%;
+  width: 60%;
+  overflow: auto;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+p {
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+.projects {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+
+  .project__item {
+    flex-grow: 1;
+    width: 33%;
+    justify-content: center;
+    flex-direction: column;
+
+    .project__description__wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+
+      .project__name {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+      }
+    }
+  }
+}
